@@ -14,3 +14,9 @@ phases:
   post_build:
     commands:
       - echo build process finished
+
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist/aws-code-pipeline-test
